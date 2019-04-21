@@ -1,0 +1,66 @@
+body {
+    background-image: url('../img/anime.jpg');
+    background-repeat: no-repeat;
+    background-size: 1600px 720px;
+}
+/* style all font awesome icons*/
+.fa {
+  padding: 8px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+/* facebook */
+.fa-facebook {
+  background:yellowgreen ;
+  color: white;
+}
+
+#calculator{
+    position: inherit;
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 12px;
+    margin: 0px auto;
+    padding: 20px 20px 50px 20px;
+  }
+  #text-font{
+    position: absolute;
+    float: right;
+    margin-top: 15px;
+  }
+  #text-font{
+    font-size: 15px;
+    font-weight: 900;
+    color: viole;
+  }
+  input[type=button] {
+    background: rgb(45, 221, 54);
+    width: 20%;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 7px;
+    margin-left: 13px;
+    margin-top: 10px;
+  }
+  input[type=button]:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #434;
+    transform: translateY(4px);
+  }
+  input[type=button]:hover {
+    background-color: rgb(255, 81, 0);
+    color: rgb(156, 66, 216);
+  }
+  
+  input[type = text] {
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 4px 0px 12px black inset;
+  }
